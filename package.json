@@ -1,0 +1,23 @@
+{
+  "name": "unfairbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "concurrently \"tsc -w\" \"nodemon .\"",
+    "start": "tsc -w && node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.15",
+    "@types/node": "^18.11.18",
+    "concurrently": "^7.6.0",
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nanoid": "^4.0.0"
+  },
+  "type": "module",
+  "module": "es2022"
+}
